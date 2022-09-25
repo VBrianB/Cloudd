@@ -1,0 +1,38 @@
+.searchArea{
+    width: 30%;
+    padding: 0 50px;
+    position: relative;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+   
+  }
+  .Search{
+    width:100%;
+    padding: 10px 20px;
+    border-radius: 32px;
+    border: none;
+    background-color: #ffffff;
+  }
+  .searchBTN{
+    position: absolute;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 15px;
+    border: none;
+    background-color: #5873FF;
+    transition: .2s ease;
+  }
+  .searchBTN.disable{
+    opacity: 0.5;
+  }
+  .searchBTN img{
+    width: 70%;
+  }

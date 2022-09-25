@@ -1,0 +1,15 @@
+footer{
+   
+    background-color: #2C606A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+width: 100%;
+height: 10vh;
+
+}
+.direitos{
+    font-weight: 700;
+}
